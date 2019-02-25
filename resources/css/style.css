@@ -12,7 +12,6 @@ html {
 
 /* Top container styles */
 .topcontainer {
-  border: 1px solid black;
   background-image: url('../glasses-bg.png');
   height: 30rem;
   background-repeat: no-repeat;
@@ -67,6 +66,94 @@ li {
 
 .taglinecontainer h1 {
   padding: 1.5rem 5rem 1.5rem 5rem;
-
 }
+
 /* bottom container styles */
+
+.middlecontainer {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  height: 8rem;
+}
+
+.exams {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-right: 6rem;
+}
+
+.exams img {
+  width: 3.5rem;
+}
+
+.fittings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-right: 6rem;
+}
+
+.fittings img {
+  width: 5rem;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-right: 6rem;
+}
+
+.delivery img {
+  width: 5rem;
+}
+
+.aboutcontainer {
+  display: inline-flex;
+  margin-bottom: 5rem;
+}
+
+.aboutdetails {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  text-align: left;
+}
+
+.aboutdetails h2 {
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footercontainer {
+  background-color: azure;
+  height: 9.5rem;
+  display: flex;
+}
+
+.footercontents {
+  display: flex;
+  align-items: center;
+}
+
+.footercontainer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
